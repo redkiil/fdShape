@@ -3,7 +3,7 @@ from setuptools import setup, Extension, find_packages
 # Define the C extension
 encoder_extension = Extension(
     name="fdShape.fdSencode",                    # This creates fdShape/encoder.so|pyd
-    sources=["fdShape/encode.c"],
+    sources=["fdShape/encoder.c"],
     language="c",
 )
 
